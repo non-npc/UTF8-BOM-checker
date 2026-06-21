@@ -29,7 +29,7 @@ python utf8_bom_checker.py
 ### Folder Scanning
 - Select an entire folder.
 - Recursively scan subfolders (optional).
-- Automatically locate `.yml` and `.yaml` localization files.
+- Automatically locate `.yml` localization files.
 - Display the status of every file found.
 
 ### Bulk BOM Fixing
@@ -60,4 +60,3 @@ python utf8_bom_checker.py
 The folder scanner currently checks:
 
 - `.yml`
-- `.yaml`
