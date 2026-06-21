@@ -1,4 +1,4 @@
-# UTF-8 BOM Checker
+# UTF-8 BOM Checker/Fixer
 
 ![Application Screenshot](screenshot.png)
 
