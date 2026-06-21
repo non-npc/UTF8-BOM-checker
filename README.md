@@ -9,7 +9,7 @@ UTF-8 BOM Checker is a simple desktop utility for checking and fixing UTF-8 BOM 
 The tool is made for Stellaris which expects localisation files to be saved as **UTF-8 with BOM**.
 
 Windows 10/11 users can download the compiled EXE here:
-https://github.com/non-npc/UTF8-BOM-checker/releases/download/v1.0/utf8_bom_checker_v1.zip
+https://github.com/non-npc/UTF8-BOM-checker/releases/tag/v1.1
 
 ---
 
