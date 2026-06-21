@@ -13,6 +13,12 @@ https://github.com/non-npc/UTF8-BOM-checker/releases/download/v1.0/utf8_bom_chec
 
 ---
 
+## Run
+
+```bash
+python utf8_bom_checker.py
+```
+
 ## Features
 
 ### Single File Checking
@@ -55,5 +61,3 @@ The folder scanner currently checks:
 
 - `.yml`
 - `.yaml`
-
----
