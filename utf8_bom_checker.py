@@ -15,7 +15,7 @@ from tkinter import filedialog, messagebox, ttk
 
 
 UTF8_BOM = b"\xef\xbb\xbf"
-LOCALISATION_EXTENSIONS = {".yml", ".yaml"}
+LOCALISATION_EXTENSIONS = {".yml"}
 
 
 class Utf8BomChecker(tk.Tk):
@@ -45,7 +45,7 @@ class Utf8BomChecker(tk.Tk):
 
         tk.Label(
             main,
-            text="Check one file or recursively scan a folder for .yml/.yaml localisation files.",
+            text="Check one file or recursively scan a folder for .yml localisation files.",
             anchor="w",
         ).pack(fill=tk.X, pady=(4, 12))
 
@@ -135,7 +135,7 @@ class Utf8BomChecker(tk.Tk):
         filename = filedialog.askopenfilename(
             title="Select file",
             filetypes=[
-                ("Localisation files", "*.yml *.yaml"),
+                ("Localisation files", "*.yml"),
                 ("All files", "*.*"),
             ],
         )
@@ -183,7 +183,7 @@ class Utf8BomChecker(tk.Tk):
             self.tree.delete(item)
 
         if not files:
-            self.status_var.set("No .yml or .yaml files found.")
+            self.status_var.set("No .yml files found.")
             self.fix_btn.config(state=tk.DISABLED)
             return
 
